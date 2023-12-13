@@ -27,7 +27,7 @@
             </a>
           </div>
         <!-- logo close -->
-      <div class="Zano1">  
+      <div class="Zano1" >  
         <section class="navbar-Right">
           <span class="overlay"></span>
           <div class="menu" id="menu">
@@ -110,20 +110,20 @@
                       </ul>
                    </div>--->
                 </li>
-                <li class="menu-item"><a href="index.html#contact" class="menu-link">تواصل معنا </a></li>
+                <li class="menu-item"><a href="index.html#contact" class="menu-link_last">تواصل معنا </a></li>
              </ul>
           </div>
-          <div class="boxdiv" class="menu-item">
+          <div class="boxdiv" >
             <form action="/action_page.php" >
               <input type="text" placeholder="البحث عن" name="p">
               <span class="icon"> <i class="fa fa-search"></i></span>
               
             </form>
           </div>
-          <div class="boxdiv" class="menu-item">
+          <div class="boxdiv" >
            
             <input type="text" placeholder="العربية" name="lan">
-            <span class="icon"><i class="fas fa-globe" class="icon"></i></span>
+            <span class="icon">  <i class="fa fa-globe" ></i></span>
           </div>
        </section>
   </div>
@@ -142,7 +142,7 @@
                                  </div>
                                  <div style="text-align: justify; " class=" right ; size:20%; direction: rtl;">
                                     <!-- Content of the right div -->
-                                 <h1  style="direction: rtl;"> <span style='font-size:20 px;direction: rtl;'> &#9664; من نحن ـــ؟ </span></h1>  
+                                 <h1  style="direction: rtl;"> <span style='font-size:20 px;direction: rtl;'> &#9664; من نحن ؟ </span></h1>  
                                           <p style="direction: rtl;">
                                              شركة بلو ترانجل للتجارة المحدودة عضو في مجموعة شركات عبد الله الرباعي التي تتخصص في عدة مجالات مختلفة
                                              مثل المقاولات والزراعة وأيضًا التجارة العامة تأسست الشركة في عام 2015 بشكل رسمي في الجمهورية اليمنية
@@ -162,93 +162,145 @@
    </div>
   <div class="Zano" >
    <div class="title-line">
-      <div class="line center"></div>
+   
       <h1 class="title right"> 
-         &#9664; الوكــــالات
+         &#9664; الوكــالات
       </h1>
+      <div class="line right"></div>
     </div>
 
    </div>
    <div class="Zano">
-   <div  class="section" >
-     <section   dir="rtl"style=" font-family: 'Cairo';flex-wrap: wrap; max-width: 80em; margin-inline: auto;transform: translatey(-3em);position: relative;">  
-                     <div class="card-top">
-                     <div class="card" >
-                        <img src="{{ asset('images/HD-DEVELON.svg') }}" alt="yy">
-                        <p>
-                           شركة اتش دي هيونداي انفراكور (شركة دوسان سابقا) هي شركة عالمية رائدة في مجال هندسة وتصنيع وتسويق معدات البناء المدمجة والثقيلة تم تصميم معدات ديفلون القوية للمساعدة في التغلب على أكبر التحديات التي تواجهك من خلال تقديم مكونات المساعد وتقنيات حديثة
-                        </p>
-                          <br/> <br/> <br/>
-                        <br/> <br/> <br/>
-                        <button class="my-button">تعرف على المزيد</button>
-                     </div>
-                     <hr class="my-vertical-line">   
-                     <div class="card" >
-                        <img src="{{ asset('images/Bobcat_one_tough_animal_Black.svg') }}" alt="yy">
-                        <p > 
-                           تقود شركة بوبكات الصناعة في تصميم وتصنيع وتسويق وتوزيع المعدات المدمجة للبناء والتأجير والمناظر الطبيعية والزراعة وصيانة الأراضي والطرقات والمرافق والصناعة والتعدين نسعى جاهدين لتمكين عملائنا من القيام وظائفهم بشكل أكثر كفاءة وفعالية
+ 
+     <section dir="rtl">  
+                     <div  class="card-top">
+                                    <div class="card" >
+                                       <img src="{{ asset('images/HD-DEVELON.svg') }}" alt="yy">
+                                       <p>
+                                          شركة اتش دي هيونداي انفراكور (شركة دوسان سابقا) هي شركة عالمية رائدة في مجال هندسة وتصنيع وتسويق معدات البناء المدمجة والثقيلة تم تصميم معدات ديفلون القوية للمساعدة في التغلب على أكبر التحديات التي تواجهك من خلال تقديم مكونات المساعد وتقنيات حديثة
+                                       </p>
+                                       <br/> <br/> <br/> <br/>
+                                      
+                                       <button class="my-button">تعرف على المزيد</button>
+                                    </div>
+                                    <hr class="my-vertical-line">   
+                                    <div class="card" >
+                                       <img src="{{ asset('images/Bobcat_one_tough_animal_Black.svg') }}" alt="yy">
+                                       <p > 
+                                          تقود شركة بوبكات الصناعة في تصميم وتصنيع وتسويق وتوزيع المعدات المدمجة للبناء والتأجير والمناظر الطبيعية والزراعة وصيانة الأراضي والطرقات والمرافق والصناعة والتعدين نسعى جاهدين لتمكين عملائنا من القيام وظائفهم بشكل أكثر كفاءة وفعالية
 
-                        </p>
-                        <br/> <br/> <br/>
-                        <br/> <br/> <br/>
-                        <button class="my-button">تعرف على المزيد</button>
-                     </div>
-                     <hr class="my-vertical-line">
-                     <div class="card">
-                        <img src="{{ asset('images/Babcat_Mach_hand.svg') }}" alt="yy">
-                        <p>والأكثر صعوبة بفضل التصميم الفائق وأحدث التقنيات
-                           تطلب العمل الشاق أكثر المعدات موثوقية. توفر دوسان للطاقة المحمولة المعدات المتينة والمثبتة التي تحتاجها للتعامل بثقة مع المهام الأكبر والأكثر صعوبة بفضل التصميم الفائق وأحدث التقنيات
+                                       </p>
+                                       <br/> <br/> <br/> <br/>
+                                       
+                                       <button class="my-button">تعرف على المزيد</button>
+                                    </div>
+                                    <hr class="my-vertical-line">
+                                    <div class="card">
+                                       <img src="{{ asset('images/Babcat_Mach_hand.svg') }}" alt="yy">
+                                       <p>والأكثر صعوبة بفضل التصميم الفائق وأحدث التقنيات
+                                          تطلب العمل الشاق أكثر المعدات موثوقية. توفر دوسان للطاقة المحمولة المعدات المتينة والمثبتة التي تحتاجها للتعامل بثقة مع المهام الأكبر والأكثر صعوبة بفضل التصميم الفائق وأحدث التقنيات
 
-                        </p>
-                        <br/> <br/> <br/>
-                        <br/> <br/> <br/>
-                        <button class="my-button">تعرف على المزيد</button>
-                     </div>
+                                       </p>
+                                       <br/> <br/> <br/> <br/>
+                                       
+                                       <button class="my-button">تعرف على المزيد</button>
+                                    </div>
 
-                    
-                     </div>
-                     <br/> <br/> <br/>
-                     
-                     <div class="card-top">
-                        <div class="card" >
-                           <img src="{{ asset('images/HD-DEVELON.svg') }}" alt="yy">
-                           <p>
-                              شركة اتش دي هيونداي انفراكور (شركة دوسان سابقا) هي شركة عالمية رائدة في مجال هندسة وتصنيع وتسويق معدات البناء المدمجة والثقيلة تم تصميم معدات ديفلون القوية للمساعدة في التغلب على أكبر التحديات التي تواجهك من خلال تقديم مكونات المساعد وتقنيات حديثة
-                           </p>
-                             <br/> <br/> <br/>
-                           <br/> <br/> <br/>
-                           <button class="my-button">تعرف على المزيد</button>
-                        </div>
-                        <hr class="my-vertical-line">   
-                        <div class="card" >
-                           <img src="{{ asset('images/Bobcat_one_tough_animal_Black.svg') }}" alt="yy">
-                           <p > 
-                              تقود شركة بوبكات الصناعة في تصميم وتصنيع وتسويق وتوزيع المعدات المدمجة للبناء والتأجير والمناظر الطبيعية والزراعة وصيانة الأراضي والطرقات والمرافق والصناعة والتعدين نسعى جاهدين لتمكين عملائنا من القيام وظائفهم بشكل أكثر كفاءة وفعالية
-   
-                           </p>
-                           <br/> <br/> <br/>
-                           <br/> <br/> <br/>
-                           <button class="my-button">تعرف على المزيد</button>
-                        </div>
-                        <hr class="my-vertical-line">
-                        <div class="card">
-                           <img src="{{ asset('images/Babcat_Mach_hand.svg') }}" alt="yy">
-                           <p>والأكثر صعوبة بفضل التصميم الفائق وأحدث التقنيات
-                              تطلب العمل الشاق أكثر المعدات موثوقية. توفر دوسان للطاقة المحمولة المعدات المتينة والمثبتة التي تحتاجها للتعامل بثقة مع المهام الأكبر والأكثر صعوبة بفضل التصميم الفائق وأحدث التقنيات
-   
-                           </p>
-                           <br/> <br/> <br/>
-                           <br/> <br/> <br/>
-                           <button class="my-button">تعرف على المزيد</button>
-                        </div>
-                        </div>
-                     
-                     </div>
+                                 
+                              </div>
+                                    <br/> <br/> 
+                                    
+                              <div class="card-top">
+                                       <div class="card" >
+                                          <img src="{{ asset('images/HD-DEVELON.svg') }}" alt="yy">
+                                          <p>
+                                             شركة اتش دي هيونداي انفراكور (شركة دوسان سابقا) هي شركة عالمية رائدة في مجال هندسة وتصنيع وتسويق معدات البناء المدمجة والثقيلة تم تصميم معدات ديفلون القوية للمساعدة في التغلب على أكبر التحديات التي تواجهك من خلال تقديم مكونات المساعد وتقنيات حديثة
+                                          </p>
+                                          <br/> <br/> <br/> <br/>
+                                         
+                                          <button class="my-button">تعرف على المزيد</button>
+                                       </div>
+                                       <hr class="my-vertical-line">   
+                                       <div class="card" >
+                                          <img src="{{ asset('images/Bobcat_one_tough_animal_Black.svg') }}" alt="yy">
+                                          <p > 
+                                             تقود شركة بوبكات الصناعة في تصميم وتصنيع وتسويق وتوزيع المعدات المدمجة للبناء والتأجير والمناظر الطبيعية والزراعة وصيانة الأراضي والطرقات والمرافق والصناعة والتعدين نسعى جاهدين لتمكين عملائنا من القيام وظائفهم بشكل أكثر كفاءة وفعالية
+                  
+                                          </p>
+                                         
+                                          <br/> <br/> <br/> <br/>
+                                          <button class="my-button">تعرف على المزيد</button>
+                                       </div>
+                                       <hr class="my-vertical-line">
+                                       <div class="card">
+                                          <img src="{{ asset('images/Babcat_Mach_hand.svg') }}" alt="yy">
+                                          <p>والأكثر صعوبة بفضل التصميم الفائق وأحدث التقنيات
+                                             تطلب العمل الشاق أكثر المعدات موثوقية. توفر دوسان للطاقة المحمولة المعدات المتينة والمثبتة التي تحتاجها للتعامل بثقة مع المهام الأكبر والأكثر صعوبة بفضل التصميم الفائق وأحدث التقنيات
+                  
+                                          </p>
+                                          <br/> <br/> <br/> <br/>
+                                         
+                                          <button class="my-button">تعرف على المزيد</button>
+                                       </div>
+                                  </div>
+                                    
+                           
 
                   </section>
-    </div>    
-   </div>  
-            
+               
+    </div>  
+    <br/>
+<div class="Zano" >
+   <div class="title-line">
+      <h1 class="title right"> 
+         &#9664; أخر الأخبار
+      </h1>
+      <div class="line right">  </div>
+      
+    </div>
+
+   </div>
+   <div class="event-container" class="spacer" dir="rtl">
+      <div class="event">
+        <img src="{{ asset('images/manager.jpg') }}" alt="صورة الحدث">
+        <div class="event-details">
+          <h3>رافعات دوسان</h3>
+          <p>
+            أبجد هوز حطي كلمن سعفص قرشت ثخذ ضظغ. يجمع شصى زكر طظف ضعغ سلمن بخت. قدر سمعن صعغ ضفظ عشغ غظف ثمق. كلمن سعفص قرشت ثخذ ضظغ يجمع شصى زكر طظف ضعغ سلمن بخت. قدر سمعن صعغ ضفظ عشغ غظف ثمق
+         </p>
+          <a href="#" class="more-link"> تعرف على المزيد</a>
+        </div>
+      </div>
+      <hr class="my-vertical-line1">
+      <div class="event">
+        <img  src="{{ asset('images/manager.jpg') }}" alt="صورة الحدث">
+        <div class="event-details">
+          <h3>عنوان الحدث</h3>
+          <p>
+
+            أبجد هوز حطي كلمن سعفص قرشت ثخذ ضظغ. يجمع شصى زكر طظف ضعغ سلمن بخت. قدر سمعن صعغ ضفظ عشغ غظف ثمق. كلمن سعفص قرشت ثخذ ضظغ يجمع شصى زكر طظف ضعغ سلمن بخت. قدر سمعن صعغ ضفظ عشغ غظف ثمق
+
+          </p>
+          <a href="#" class="more-link"> تعرف على المزيد</a>
+        </div>
+      </div>
+    </div>
+    <div class="Zano">
+      <div class="title-line">
+         <h1 class="title right"> 
+            &#9664; تواصل معنــا
+         </h1>
+         <div class="line right">  </div>
+         
+       </div>
+
+       <div>
+
+
+       </div>
+   </div>
+ </div>
+
 </div>
   <div class="gradient-bg">
     <svg xmlns="http://www.w3.org/2000/svg">
@@ -270,9 +322,32 @@
     </div>
   </div>
  
-
+<script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const interBubble = document.querySelector('.interactive');
+          let curX = 0;
+          let curY = 0;
+          let tgX = 0;
+          let tgY = 0;
+      
+          function move() {
+              curX += (tgX - curX) / 20;
+              curY += (tgY - curY) / 20;
+              interBubble.style.transform = `translate(${Math.round(curX)}px, ${Math.round(curY)}px)`;
+              requestAnimationFrame(move);
+          }
+      
+          window.addEventListener('mousemove', (event) => {
+              tgX = event.clientX;
+              tgY = event.clientY;
+          });
+      
+          move();
+      });  
+</script>
 
      <link rel="javescrupt" href="{{ asset('js/wow.min.js') }}">
      <script src="assets/vendor/php-email-form/validate.js"></script>
+     <script src="assets/vendor/aos/aos.js"></script>
   </body>
 </html>
