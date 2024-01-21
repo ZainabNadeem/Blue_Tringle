@@ -28,7 +28,7 @@
           </div>
         <!-- logo close -->
       <div class="Zano1" >  
-        <section class="navbar-Right">
+        <section class="navbar">
           <span class="overlay"></span>
           <div class="menu" id="menu">
              <div class="menu-header">
@@ -113,18 +113,33 @@
                 <li class="menu-item"><a href="index.html#contact" class="menu-link_last">تواصل معنا </a></li>
              </ul>
           </div>
-          <div class="boxdiv" >
-            <form action="/action_page.php" >
-              <input type="text" placeholder="البحث عن" name="p">
-              <span class="icon"> <i class="fa fa-search"></i></span>
-              
-            </form>
+          <div class="section">
+            <div class="left">
+              <div class="boxdiv">
+                <form action="/saction_page.php">
+                  <input type="text" placeholder="البحـــــث عن" name="p">
+                  <span class="icon"> <i class="fa fa-search"></i></span>
+                </form>
+              </div>
+            </div>
+            <div class="left">
+              <div class="boxdiv">
+               <form action="/language_page.php">
+                  <div class="language-dropdown">
+                     <button class="dropdown-button">اختر اللغة</button>
+                     <ul class="dropdown-menu">
+                       <li class="dropdown-item">العربية</li>
+                       <li class="dropdown-item">English</li>
+                       <li class="dropdown-item">Français</li>
+                       <!-- أضف المزيد من العناصر حسب الحاجة -->
+                     </ul>
+                   </div>
+                <span class="icon">  <i class="fa fa-globe" ></i></span>
+               </form>
+              </div>
+            </div>
           </div>
-          <div class="boxdiv" >
-           
-            <input type="text" placeholder="العربية" name="lan">
-            <span class="icon">  <i class="fa fa-globe" ></i></span>
-          </div>
+         
        </section>
   </div>
   <div >
